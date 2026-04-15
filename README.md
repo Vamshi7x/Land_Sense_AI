@@ -74,7 +74,6 @@ https://landsense-ai.streamlit.app/
 * Open-source datasets
 
 ---
-
 ## 📜 License
 
 This project is for educational purposes.
