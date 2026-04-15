@@ -619,3 +619,32 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
+
+
+
+# ===============================
+# 👥 CONTRIBUTORS SECTION (FOOTER)
+# ===============================
+st.markdown("---")
+
+st.markdown("""
+<div style='text-align:center; padding:20px 10px; margin-top:30px;'>
+
+    <div style='font-size:1.1rem; font-weight:600; color:#fb8500; margin-bottom:10px;'>
+        👥 Contributors
+    </div>
+
+    <div style='font-size:0.9rem; color:#555; line-height:1.8;'>
+
+        <b>Anandini Kurapati</b> — Data Science & ML Development<br>
+        <b>Your Team Member 2</b> — Data Engineering<br>
+        <b>Your Team Member 3</b> — Visualization & UI Design<br>
+
+    </div>
+
+    <div style='margin-top:15px; font-size:0.75rem; color:#888;'>
+        © 2026 LandSense AI · Built with Streamlit
+    </div>
+
+</div>
+""", unsafe_allow_html=True)
