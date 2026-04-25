@@ -283,11 +283,11 @@ elif page == "🏡 Prediction":
     road_quality = col13.number_input("Road Quality Score", step=0.1)
 
     col14, col15 = st.columns(2)
-    utility_access = col14.selectbox("Utility Access", ["No", "Yes"], format_func=lambda x: "0" if x else "1")
-    govt_dev_plan = col15.selectbox("Government Development Plan", ["No", "Yes"], format_func=lambda x: "0" if x else "1")
+    utility_access = col14.selectbox("Utility Access", [0,1], format_func=lambda x: "0" if x else "1")
+    govt_dev_plan = col15.selectbox("Government Development Plan", [0,1], format_func=lambda x: "0" if x else "1")
 
     col16, col17 = st.columns(2)
-    flood_risk = col16.selectbox("Flood Risk", ["No", "Yes"], format_func=lambda x: "0" if x else "1")
+    flood_risk = col16.selectbox("Flood Risk", [0,1], format_func=lambda x: "0" if x else "1")
     current_price = col17.number_input("Current Market Price per Sqft (₹)", min_value=0.0, step=1.0)
 
     st.markdown("<br>", unsafe_allow_html=True)
